@@ -9,7 +9,8 @@ jobs:
     name: A job to say hello
     steps:
       - name: Hello world action step
-        id: djc06048/create-github-action@v1
+        id: hello
+        uses: djc06048/create-github-action@v1
         with:
           who-to-greet: 'hyelim'
       # Use the output from the `hello` step
