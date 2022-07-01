@@ -10,7 +10,7 @@ jobs:
     steps:
       - name: Hello world action step
         id: hello
-        uses: actions/create-github-action@v1
+        uses: create-github-action/create-github-action@v1
         with:
           who-to-greet: 'hyelim'
       # Use the output from the `hello` step
